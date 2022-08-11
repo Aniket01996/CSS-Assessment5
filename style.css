@@ -1,0 +1,111 @@
+.body,html {
+    background-color: yellow;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30vh;
+    gap: 50px;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px ;
+    background-color: cadetblue;
+    animation: aniket 1s infinite alternate linear ;
+
+}
+@keyframes aniket {
+    0% {
+        transform: skewX(0deg);
+    }
+    100% {
+        transform: skewX(-30deg);
+    }
+}
+
+.box1 {
+    width: 100px;
+    height: 100px ;
+    background-color: dodgerblue ;
+    animation: aniket1 1s infinite alternate linear ;
+
+}
+@keyframes aniket1 {
+    0% {
+        transform: skewX(0deg) rotate(0deg);
+        
+    }
+    100% {
+        transform: skewX(-30deg) rotate(-20deg);
+       
+    }
+}
+.box2 {
+    width: 100px;
+    height: 100px ;
+    background-color: rgb(230, 23, 150);
+    animation: aniket2 3s infinite ;
+
+}
+@keyframes aniket2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box01 {
+    width: 100px;
+    height: 100px ;
+    background-color: indigo;
+    border: 1px solid black;
+    animation: aniket01 2s infinite alternate linear ;
+
+}
+@keyframes aniket01 {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(70deg);
+    }
+}
+.box02 {
+    width: 100px;
+    height: 100px ;
+    background-color: gray;
+    border: 1px solid black;
+    animation: aniket02 2s infinite alternate linear ;
+
+}
+@keyframes aniket02 {
+    0% {
+        transform: rotatey(0deg);
+    }
+    100% {
+        transform: rotatey(70deg);
+    }
+}
+
+.box03 {
+    width: 100px;
+    height: 100px ;
+    background-color: crimson;
+    border: 1px solid black;
+    animation: aniket03 2s infinite alternate linear ;
+
+}
+@keyframes aniket03 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
